@@ -49,7 +49,7 @@ namespace GenericFileCreator.Input
 
         private void CreateDirectoryIfNotExists()
         {
-            string directoryName = Path.GetDirectoryName(filePath);
+            string directoryName = string.Empty;
             try
             {
                 directoryName = Path.GetDirectoryName(filePath);
